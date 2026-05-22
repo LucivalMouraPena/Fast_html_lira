@@ -20,7 +20,7 @@ app, rt = fast_app()
 @rt("/")
 def homepage():
     return Div(
-        gerar_titulo("Sua Lista de Tarefas Super Sinistra", "Organize seu dia"),
+        gerar_titulo("Central de Tarefas do Usuario", "Projeto versionado com GitHub"),
         Hr(),
 
         H2("Minhas Tarefas Atuais:"),
